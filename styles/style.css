@@ -1,0 +1,15 @@
+body {
+  background-color: lightsalmon;
+  color: black;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+#list {
+  background-color: red;
+  color: white;
+}
+a {
+  background-color: gray;
+}
