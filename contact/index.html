@@ -21,9 +21,9 @@
       method="POST">
         <fieldset>
           <legend>About you:</legend>
-          <input type="text" name="firstname" placeholder="First Name" size="100" autofocus>
-          <input type="text" name="lastname" placeholder="Last Name" size="100">
-          <input type="email" name="userEmail" placeholder="your.email@example.com">
+          <input type="text" name="firstname" placeholder="First Name" size="100" autofocus required>
+          <input type="text" name="lastname" placeholder="Last Name" size="100" required>
+          <input type="email" name="userEmail" placeholder="your.email@example.com" required>
         </fieldset>
 
         <fieldset>
@@ -62,6 +62,7 @@
         </fieldset>
         <textarea name="user_message" rows="8" cols="40"></textarea>
 
+
         <input type="submit">
 
 
@@ -72,8 +73,6 @@
     <div class="footer">
 
     </div>
-
-
 
   </body>
 </html>
