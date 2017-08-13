@@ -2,17 +2,6 @@ body {
   background-color: lightsalmon;
   color: black;
 }
-img {
-  height: 50px;
-  width: 50px;
-}
-#list {
-  background-color: red;
-  color: white;
-}
-a {
-  background-color: gray;
-}
 
 nav {
   position: fixed;
@@ -26,6 +15,22 @@ nav {
 nav li {
   display: inline;
   list-style-type: none;
+}
+
+.profile-pic {
+  margin-top: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#list {
+  background-color: red;
+  color: white;
+}
+
+a {
+  background-color: gray;
 }
 
 .container {
