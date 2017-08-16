@@ -7,14 +7,27 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 5em;
-  width: 80%;
-  background-color: lightsalmon;
+  height: 3em;
+  width: 100vw;
+  background-color: darksalmon;
 }
 
 nav li {
   display: inline;
   list-style-type: none;
+}
+
+nav>ul.ul-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
 }
 
 .profile-pic {
@@ -35,16 +48,16 @@ a {
 
 .container {
   margin-top: 100px;
-  position: relative;
+  overflow: auto;
 }
 
 .blog-content {
-  position: absolute;
-  width: 70%;
+  /*float: left;*/
+  /*width: 70%;*/
 }
 
 .sidebar {
-  position: absolute;
-  width: 30%;
-  right: 0;
+  /*float: left;*/
+  /*width: 30%;*/
+
 }
