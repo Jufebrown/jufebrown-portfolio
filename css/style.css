@@ -59,5 +59,13 @@ a {
 .sidebar {
   /*float: left;*/
   /*width: 30%;*/
+}
 
+.headerfooter {
+  margin-top: 100px;
+}
+
+#greeting {
+  background-color: black;
+  color: white;
 }
