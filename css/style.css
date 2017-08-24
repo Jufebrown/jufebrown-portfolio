@@ -73,3 +73,8 @@ a {
 .projects {
   margin-top: 100px;
 }
+
+.highlighted {
+  font-weight: bolder;
+  color: green;
+}

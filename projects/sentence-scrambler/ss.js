@@ -35,3 +35,44 @@ var autoFunnySentence = function() {
 }
 
 autoFunnySentence()
+
+// native js event listener
+var fn = function() {
+  console.log('heyyyy')
+}
+
+document.querySelector('#target').addEventListener('click', fn)
+
+document.querySelector('#target').addEventListener('click', function() {
+  console.log('same deal')
+})
+
+
+// jquery event listener
+$('div').on('click', function() {
+  console.log('A div has been clicked!')
+})
+
+$('p').click(function() {
+  $('p').show().css('color', 'red').text('boom goes the dynamite!')
+})
+
+// // mouseover listener
+// $('li').on('mouseover', function(event) {
+//   var target = event.target
+//   $(target).addClass('highlighted')
+// })
+//
+// $('li').on('mouseleave', function(event) {
+//   var target = event.target
+//   $(target).removeClass('highlighted')
+// })
+
+// mouseover listener with this
+$('li').on('mouseover', function() {
+  $(this).addClass('highlighted')
+})
+
+$('li').on('mouseleave', function() {
+  $(this).removeClass('highlighted')
+})
