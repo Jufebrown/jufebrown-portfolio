@@ -78,3 +78,11 @@ a {
   font-weight: bolder;
   color: green;
 }
+
+.loser {
+  background-color: red;
+}
+
+.winner {
+  background-color: green;
+}
