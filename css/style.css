@@ -1,6 +1,8 @@
 body {
-  background-color: lightsalmon;
-  color: black;
+  background: url(https://i.ytimg.com/vi/zSpyvMdRSlY/maxresdefault.jpg) center slategray;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 nav {
